@@ -1,0 +1,30 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Age",
+      "Tenure",
+      "SupportCalls",
+      "PaymentDelay"
+    ],
+    "data": [
+      [
+        44,
+        49,
+        8,
+        11
+      ],
+      [
+        60,
+        15,
+        6,
+        28
+      ],
+      [
+        51,
+        29,
+        4,
+        14
+      ]
+    ]
+  }
+}

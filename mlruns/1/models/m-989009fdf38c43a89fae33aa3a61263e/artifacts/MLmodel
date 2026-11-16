@@ -1,0 +1,36 @@
+artifact_path: /home/dhanish/DHANISH/WEEK/WEEK 44/LEARNING/churn4/mlruns/1/models/m-989009fdf38c43a89fae33aa3a61263e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-989009fdf38c43a89fae33aa3a61263e
+model_size_bytes: 3051
+model_uuid: m-989009fdf38c43a89fae33aa3a61263e
+prompts: null
+run_id: a3cfa7df70604f3a83c3832921518e11
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "Tenure", "required": true}, {"type": "long", "name": "SupportCalls", "required":
+    true}, {"type": "long", "name": "PaymentDelay", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-16 10:28:52.971788'
